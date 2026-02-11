@@ -1,10 +1,8 @@
 # User Login Check
 s_uname='admin'
 s_pass='1234'
-
 user_n=input("Enter a name:")
 user_p=input("Enter a Password:")
-
 if(s_uname==user_n and s_pass==user_p):
     print("Login Successful")
 else:
@@ -25,14 +23,10 @@ print("Passed Students:", p_count)
 print("Failed Students:", f_count)
 
 #Simple Data Cleaner
-
 names = [" Alice ", "bob", " CHARLIE "]
-
 cleaned_names = []
-
 for name in names:
     cleaned_names.append(name.strip().lower())
-
 print(cleaned_names)
 
 
@@ -52,11 +46,9 @@ for msg in messages:
 
 #Error Message Detector
 logs = ["INFO", "ERROR", "WARNING", "ERROR"]
-
 error_count = 0
-
 for log in logs:
     if log == "ERROR":
         error_count += 1
-
 print("Number of ERROR messages:", error_count)
+
